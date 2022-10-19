@@ -1,0 +1,23 @@
+.card{
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 70px 70px 0 #023047;
+    padding: 50px 150px;
+    border: 3px solid black;
+    border-radius: 10px ;
+    background-color: rgb(100, 178, 204); 
+}
+.in{
+    background-color: aliceblue;
+    padding: 50px 60px;
+    border-radius: 2px;
+    border: 2px solid black;
+}
+.signup{
+    margin-left: 25%;
+    margin-top: 10%;
+    border: 2px solid black;
+}
+

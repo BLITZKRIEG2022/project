@@ -1,0 +1,33 @@
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 70px 70px 0 #023047;
+    padding: 150px 200px;
+    border: 3px solid black;
+    border-radius: 10px ;
+    background-color: rgb(100, 178, 204); 
+}
+
+.button{
+    margin-left: 36%;
+    border: 2px solid black;
+}
+.button:hover{
+    background-color: white;
+    color: darkblue;
+
+} .card{
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgba(51, 107, 197, 0.2);
+}
+h2{
+    border:2px solid black;
+    border-radius: 2px;
+}
+body{
+    background-image: linear-gradient(to bottom right,aliceblue,rgb(79, 153, 177))
+}

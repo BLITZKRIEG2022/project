@@ -1,0 +1,25 @@
+<body>
+<div class="container">
+  <h2 style="text-align: center; background-color: aliceblue; border-radius: 3px;">FILE UPLOAD</h2><br>
+    <mat-card class="card">
+        <mat-form-field floatPlaceholder="never" appearance="fill">
+        <input [hidden]="true" (change)="onFileSelect($event)" type="file" accept=".csv" #fileSelect>
+        <input readonly matInput [(ngModel)]="filename" placeholder="No file uploaded!!"/>
+         <button *ngIf="this.file" (click)="deleteFile(); fileSelect.value='';" matSuffix matTooltip="Remove  file"
+                [matTooltipPosition]="'below'" type="button" color="warn" mat-icon-button>
+                <mat-icon>close</mat-icon>
+              </button>
+        <button matSuffix mat-icon-button (click)="fileSelect.click();"  matTooltip="Select a file" [matTooltipPosition]="'below'">
+          <mat-icon>attach_file</mat-icon>
+        </button> 
+      </mat-form-field><br>
+      <button class="button"(click)="fileUpload()"matTooltip="Upload" [matTooltipPosition]="'below'" mat-raised-button color="primary" style=" min-height: 20px;">
+        <span *ngIf="!showLoader">Send</span>
+        
+
+      </button><br>
+
+    </mat-card>
+</div>
+</body>
+

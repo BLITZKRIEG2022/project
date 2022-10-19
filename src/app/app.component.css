@@ -1,0 +1,16 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+.tool{
+    background-color: #273469;
+}
+button:hover{
+    background-color: white;
+    color: darkblue;
+    border-color: #001c55;
+
+}
+button{
+    border: 2.5px solid #dbe9ee;
+    background-color: #c6d2ed;
+}

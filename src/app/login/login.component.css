@@ -1,0 +1,32 @@
+.text-center{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 70px 70px 0 #023047;
+    padding: 100px 100px;
+    border: 3px solid black;
+    border-radius: 10px ;
+    background-color: rgb(100, 178, 204);
+
+
+}
+.example-container{
+    padding: 50px 50px;
+    background-color:aliceblue;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+button:hover{
+    background-color: white;
+    color: darkblue;
+    border-color: #6a00f4;
+}
+h2{
+    border:2px solid black ;
+}
+body{
+    
+    background-image: linear-gradient(to bottom right,aliceblue,rgb(79, 153, 177))
+
+}
